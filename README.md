@@ -1,4 +1,4 @@
-# 🧠 Quiz App
+# 🧠 QuizQuest
 
 A fully responsive web-based quiz application built using HTML, CSS, and JavaScript. It features per-question timers, randomized questions, live score tracking, a progress bar, and persistent high score storage using local storage.
 
