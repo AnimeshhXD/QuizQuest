@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QuizQuest</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/x-icon" href="favicon-32x32.png">
+</head>
+<body>
+  <div class="quiz-container">
+    <div id="quiz-header">
+      <h1>Quiz App</h1>
+      <div id="score">Score: 0</div>
+      <div id="high-score">High Score: 0</div>
+    </div>
+    <div id="progress-bar"><div id="progress"></div></div>
+    <div id="question-container">
+      <div id="question">Loading...</div>
+      <div id="answers"></div>
+      <div id="timer">Time Left: <span id="time">10</span>s</div>
+    </div>
+    <button id="next-btn">Next</button>
+    <button id="restart-btn" style="display:none;">Restart Quiz</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
